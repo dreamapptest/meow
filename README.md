@@ -1,21 +1,8 @@
 
-What is GitHub?
-  GitHub is where the code that runs your app lives.
-  Think of it like Google Drive, but for code.
-  It keeps your app safe and tracks all your changes.
+Error: HTTP 404: Not Found (https://api.github.com/user/keys?per_page=100)
+This API operation needs the "admin:public_key" scope. To request it, run:  gh auth refresh -h github.com -s admin:public_key
 
-✓ Already signed in to GitHub
-▶ Checking SSH connection to GitHub...
-▶ Setting up SSH key for GitHub...
+You can add it manually at: https://github.com/settings/keys
+Your public key is at: /Users/hassan/.ssh/id_ed25519.pub
 
-We need your email to set up GitHub
-Enter your email: hassan@fload.ai
-
-▶ Configuring git...
-✓ Git configured
-▶ Generating SSH key...
-✓ SSH key generated
-▶ Adding key to SSH agent...
-✓ Key added to SSH agent
-▶ Adding SSH key to GitHub...
-hassan@hassans-Virtual-Machine ~ % 
+Press Enter once you've added the key...
