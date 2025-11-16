@@ -1,21 +1,17 @@
+What is GitHub?
+  GitHub is where the code that runs your app lives.
+  Think of it like Google Drive, but for code.
+  It keeps your app safe and tracks all your changes.
 
-⚠ GitHub needs additional permissions to add SSH keys
-
-What's happening:
-  GitHub CLI needs permission to manage your SSH keys.
-  A browser window will open for you to approve this.
-
-Press Enter when ready to continue...
-
-▶ Opening browser for authorization...
-? Authenticate Git with your GitHub credentials? Yes
-
-! First copy your one-time code: 6BA6-1803
-Press Enter to open https://github.com/login/device in your browser... 
-✓ Authentication complete.
-
-✓ Permissions granted!
-▶ Retrying SSH key upload...
+✓ Already signed in to GitHub
+▶ Checking SSH connection to GitHub...
+▶ Setting up SSH key for GitHub...
+✓ Using email from git config: hassan@fload.ai
+▶ Generating SSH key...
+✓ SSH key already exists
+▶ Adding key to SSH agent...
+✓ Key added to SSH agent
+▶ Adding SSH key to GitHub...
 ✓ SSH key added to GitHub
 ✓ SSH connection verified
 hassan@hassans-Virtual-Machine ~ % 
