@@ -1,8 +1,21 @@
 
-Error: HTTP 404: Not Found (https://api.github.com/user/keys?per_page=100)
-This API operation needs the "admin:public_key" scope. To request it, run:  gh auth refresh -h github.com -s admin:public_key
+⚠ GitHub needs additional permissions to add SSH keys
 
-You can add it manually at: https://github.com/settings/keys
-Your public key is at: /Users/hassan/.ssh/id_ed25519.pub
+What's happening:
+  GitHub CLI needs permission to manage your SSH keys.
+  A browser window will open for you to approve this.
 
-Press Enter once you've added the key...
+Press Enter when ready to continue...
+
+▶ Opening browser for authorization...
+? Authenticate Git with your GitHub credentials? Yes
+
+! First copy your one-time code: 6BA6-1803
+Press Enter to open https://github.com/login/device in your browser... 
+✓ Authentication complete.
+
+✓ Permissions granted!
+▶ Retrying SSH key upload...
+✓ SSH key added to GitHub
+✓ SSH connection verified
+hassan@hassans-Virtual-Machine ~ % 
